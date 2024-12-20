@@ -1,3 +1,6 @@
+
+//https://github.com/SreckoGit/CA2-Programming-algorithms/tree/f36a90029143f4df8624d11d42ab49af23125976/src
+package src;
 import java.util.Scanner;
 
 public class BubbleSort {
@@ -30,6 +33,7 @@ public class BubbleSort {
           //Display the total number of swaps
           System.out.println("Total number of swaps: " + swapCount);
 
+          scanner.close();
      }
      
      //------------METHOD------------------------
