@@ -25,6 +25,8 @@ public class SpiralMatrixTraversal {
           // Perform spiral traversal
           System.out.println("Spiral order traversal of the matrix:");
           spiralTraversal(matrix, rows, cols);
+
+          scanner.close();
      }
 
      // Function to perform spiral traversal
